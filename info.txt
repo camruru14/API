@@ -1,0 +1,30 @@
+Endpoint URL
+https://retoolapi.dev/zQs58v/data
+See all available endpoints here (generated with json-server)
+HTTP method endpoints
+
+curl "https://api-generator.retool.com/zQs58v/data"
+curl "https://api-generator.retool.com/zQs58v/data?nombre=value"
+curl "https://api-generator.retool.com/zQs58v/data/1"
+curl "https://api-generator.retool.com/zQs58v/data?_page=2&_limit=10"
+curl -X POST -H 'Content-Type: application/json' -d '{"key":"value"}' https://api-generator.retool.com/zQs58v/data
+curl -X PUT -H 'Content-Type: application/json' -d '{"key":"value"}' https://api-generator.retool.com/zQs58v/data/1
+curl -X PATCH -H 'Content-Type: application/json' -d '{"key":"value"}' https://api-generator.retool.com/zQs58v/data/1
+curl -X DELETE https://api-generator.retool.com/zQs58v/data/1
+
+GET
+/zQs58v/data
+GET filter
+/zQs58v/data?nombre=value
+GET by id
+/zQs58v/data/1
+GET paginate
+/zQs58v/data?_page=2&_limit=10
+POST
+/zQs58v/data
+PUT
+/zQs58v/data/1
+PATCH
+/zQs58v/data/1
+DELETE
+/zQs58v/data/1
