@@ -1,0 +1,35 @@
+.add_button{
+    position: fixed; /*El boton queda encima del contenido flotante*/
+
+    bottom: 30px; /*desde abajo 20px*/
+
+    right: 25px; /*desde la derecha 25px*/
+
+    background-color: cornflowerblue;
+
+    color: black;/*color del icono*/
+
+    border: none;/*quitar bordes*/
+
+    border-radius: 50%;
+
+    width: 70px;
+
+    height: 70px;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+
+    display: flex;/*Activamos flexbox*/
+
+    justify-content: center;/*alineacion horizontal*/
+
+    align-items: center;/*Alineacion vertical*/
+
+    transition: transform 0.4s;/*animacion que durara*/
+
+    z-index: 1001;/*para que el boton siempre quede encima de todo*/
+}   
+
+.add_button:hover{
+    transform: scale(1.1);/*para que crezca cuando se acerca el mouse*/
+}
