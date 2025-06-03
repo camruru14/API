@@ -25,31 +25,35 @@
     </header>
     <main class="container">
         <h2>Integrantes del equipo</h2>
-        <table id="tabla" class="overflow-auto">
-            <thead>
-                <tr>
-                    <th>
-                        ID
-                    </th>
-                    <th>
-                        nombre
-                    </th>
-                    <th>
-                        apellido
-                    </th>
-                    <th>
-                        email
-                    </th>
-                    <th>
-                        edad
-                    </th>
-                </tr>
-            </thead>
-            <tbody>
-                <!--Aqui va el cuerpo de la tabla-->
-                <!--Registros que vienen de la API-->
-            </tbody>
-        </table>
+
+        <!--Ponemos un scroll a la tabla-->
+        <div class="tabla-scroll">
+            <table id="tabla" class="overflow-auto">
+                <thead>
+                    <tr>
+                        <th>
+                            ID
+                        </th>
+                        <th>
+                            nombre
+                        </th>
+                        <th>
+                            apellido
+                        </th>
+                        <th>
+                            email
+                        </th>
+                        <th>
+                            edad
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!--Aqui va el cuerpo de la tabla-->
+                    <!--Registros que vienen de la API-->
+                </tbody>
+            </table>
+        </div> 
     </main>
     <!--modal para agregar integrantes-->
 
@@ -62,7 +66,8 @@
             <form id="frmAgregar">
                 <input type="text" id="nombre" placeholder="nombre" required>
                 <input type="text" id="apellido" placeholder="apellido" required>
-                <input type="email" id="correo" placeholder="email" required>
+
+                <input type="email" id="email" placeholder="email" required>
                 <input type="number" id="edad" placeholder="edad" required>
                 <button type="submit" class="contrast">Guardar</button>
             </form>

@@ -32,4 +32,9 @@
 
 .add_button:hover{
     transform: scale(1.1);/*para que crezca cuando se acerca el mouse*/
+
+}
+
+.tabla-scroll{
+overflow: auto;/*scroll horizontal*/
 }
